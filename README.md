@@ -51,65 +51,7 @@ To create an inclusive, adaptive, and behavior-driven news platform that empower
 
 ---
 
-angaza-news-platform/
-│
-├── public/                         # Static files (favicon, manifest, robots.txt, index.html)
-│   └── assets/                     # Images, icons, logos
-│
-├── src/
-│   ├── components/                 # Reusable React components
-│   │   ├── Navbar.jsx
-│   │   ├── Footer.jsx
-│   │   ├── MoodLensSelector.jsx
-│   │   ├── StoryCard.jsx
-│   │   ├── LangToggle.jsx
-│   │   └── AccessibilityToggle.jsx
-│   │
-│   ├── features/                   # Feature modules
-│   │   ├── Feed/                   # Personalized news feed
-│   │   │   └── FeedPage.jsx
-│   │   ├── Story360/               # 360° Story Comparison
-│   │   │   └── StoryCompare.jsx
-│   │   ├── Community/              # Community Hub
-│   │   │   └── CommunityHub.jsx
-│   │   ├── Visuals/                # Data visualizations
-│   │   │   └── VisualGallery.jsx
-│   │   └── Saved/                  # Saved news
-│   │       └── SavedStories.jsx
-│   │
-│   ├── ai/                         # AI logic and services
-│   │   ├── summarizer.js          # Story summarization logic
-│   │   ├── sentimentAnalyzer.js   # Tone/bias detection
-│   │   ├── translator.js          # Swahili ↔ English toggle (NMT API)
-│   │   └── recommender.js         # Behavior-based news feed logic
-│   │
-│   ├── context/                   # Global state/context providers
-│   │   ├── AuthContext.jsx
-│   │   ├── LangContext.jsx
-│   │   └── ThemeContext.jsx
-│   │
-│   ├── hooks/                     # Custom React hooks
-│   │   └── useUserBehavior.js
-│   │
-│   ├── pages/                     # Route pages
-│   │   ├── Home.jsx
-│   │   ├── Explore.jsx
-│   │   ├── About.jsx
-│   │   ├── Saved.jsx
-│   │   └── Community.jsx
-│   │
-│   ├── styles/                    # Tailwind or CSS files
-│   │   └── main.css
-│   │
-│   ├── App.jsx                    # Root component
-│   └── main.jsx                   # React DOM render
-│
-├── .env                           # Environment variables (API keys, endpoints)
-├── .gitignore
-├── tailwind.config.js
-├── vite.config.js                 # Vite config
-├── package.json
-└── README.md                      # Project documentation
+
 
 
 
